@@ -986,13 +986,14 @@ img.timeline-badge:hover{
   }
 
   ul.timeline > li > .timeline-badge {
-    left: 15px;
+    /* left: 15px; */
     margin-left: 0;
     top: 16px;
   }
 
   ul.timeline > li > .timeline-panel {
-    float: right;
+    /* float: right; */
+    margin-left:500px !important;
   }
 
   ul.timeline > li > .timeline-panel:before {
