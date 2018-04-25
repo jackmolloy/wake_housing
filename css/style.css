@@ -33,6 +33,7 @@ p.title {
 
 ul.factoid {
   text-align: left;
+  color:#ffffff;
 }
 
 a {
@@ -742,7 +743,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #f4f3e2;
+  background: #8EA4BF;
   z-index: -1;
 }
 .couple.bride {
@@ -756,7 +757,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #fef6f8;
+  background: #BEDBFF;
   z-index: -1;
 }
 .couple img {
@@ -774,7 +775,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 .couple .desc h2 {
-  color: #FF847C;
+  color: #ffffff;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -868,11 +869,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #f4f3e2;
+  background: #8EA4BF;
   z-index: -1;
 }
 .timeline > li > .timeline-panel .overlay.overlay-2 {
-  background: #fef6f8;
+  background: #BEDBFF;
 }
 .timeline > li > .timeline-badge {
   background-size: cover;
@@ -922,7 +923,7 @@ h1, h2, h3, h4, h5, h6 {
 .timeline-title {
   margin-top: 0;
   font-size: 34px;
-  color: #FF847C;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
@@ -1544,7 +1545,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer {
   padding: 50px 0;
-  color: #7f7f7f;
+  color: #ffffff;
 }
 #footer .copyright {
   margin-bottom: 0px;
@@ -1699,3 +1700,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.foot{
+  background-color:#434343;
+}
