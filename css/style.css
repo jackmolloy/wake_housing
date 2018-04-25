@@ -52,10 +52,15 @@ p {
   text-align: left;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   color: #434343;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 1em !important;
 }
 
 ::-webkit-selection {
@@ -294,7 +299,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #qbootstrap-couple,
 #qbootstrap-countdown,
-#qbootstrap-groom-bride,
 #qbootstrap-story,
 #qbootstrap-people,
 #qbootstrap-when-where,
@@ -302,7 +306,13 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-gallery,
 #qbootstrap-testimonials,
 #qbootstrap-press {
-  padding: 5em 0;
+  padding: 5em 0 0 0;
+
+}
+
+#qbootstrap-groom-bride{
+
+    padding-top: none;
 }
 @media screen and (max-width: 480px) {
   #qbootstrap-couple,
@@ -761,7 +771,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #BEDBFF;
+  background: #8EA4BF;
   z-index: -1;
 }
 .couple img {
@@ -879,6 +889,13 @@ h1, h2, h3, h4, h5, h6 {
 .timeline > li > .timeline-panel .overlay.overlay-2 {
   background: #BEDBFF;
 }
+.timeline-badge
+.timeline-badge:hover .zap-hover{
+  background: url("images/wake2.png") !important;
+}
+
+
+
 .timeline > li > .timeline-badge {
   background-size: cover;
   background-position: center center;
@@ -984,14 +1001,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .qbootstrap-greetings {
+  background-image: url(../images/wake_housing_edit.jpg);
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
+
 }
 
 #qbootstrap-testimonials {
   background: #FF847C;
   z-index: 0;
+  /* background-image: url(images/wake_housing_edit.jpg); */
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
 }
 #qbootstrap-testimonials .overlay {
   position: absolute !important;
@@ -1066,7 +1089,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 56px;
   height: 56px;
   margin-top: -30px;
-  background: #FF847C;
+  background: #8EA4BF;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
