@@ -920,6 +920,13 @@ img.timeline-badge:hover{
     background: url("images/wake2.png");
   }
 
+.zapcon{
+  max-width:5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-badge {
     width: 90px;
